@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<GridPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+ <children>
+ 
+ <Label fx:id="heartRateLabel" prefHeight="30" text="Target Heart Rate" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      <Group>
+         <children>
+            <RadioButton mnemonicParsing="false" text="femaleRadioButton" />
+            <RadioButton mnemonicParsing="false" text="maleRadioButton" />
+         </children>
+      </Group>
+      
+  </children>
+
+</GridPane>
